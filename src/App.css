@@ -1,0 +1,48 @@
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.text {
+  font-family: Georgia, serif;
+  color: rgb(209, 125, 29);
+  margin: 3px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container > div {
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid grey;
+}
+
+.chart-container {
+  margin-left: 13%;
+  margin-bottom: 10%; 
+  box-sizing: border-box;
+  padding: 10px;
+  width: 1000px;
+  height: 600px;
+  background-color: #fff;
+}
